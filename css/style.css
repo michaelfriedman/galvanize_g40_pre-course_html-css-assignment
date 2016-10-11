@@ -6,6 +6,24 @@ html {
   background-size: cover;
 }
 
+
+body{
+    overflow-y:hidden;
+}
+@media only screen and (max-width:960px){
+    body{
+        overflow-y:scroll;
+    }
+}
+
+ul li {
+  list-style-type: none
+}
+
+.button {
+  background-color: #afeeee
+}
+
 .main_header {
   font-family: Shrikhand;
 }
@@ -17,27 +35,10 @@ html {
   max-height: 200px
 }
 
-ul li {
-  list-style-type: none
-}
-
-a .future-plans {
-  font-color: black !important;
-  text-decoration: none;
-}
-
 .box {
         background-color: rgba(0, 0, 0, 0.5);
         padding: 20px;
         width: 300px;
         margin: 100px auto;
         text-align: center;
-}
-body{
-    overflow-y:hidden;
-}
-@media only screen and (max-width:960px){
-    body{
-        overflow-y:scroll;
-    }
 }
