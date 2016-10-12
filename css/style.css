@@ -6,14 +6,14 @@ html {
   background-size: cover;
 }
 
-
-body{
-    overflow-y:hidden;
+body {
+  overflow-y: hidden;
 }
-@media only screen and (max-width:960px){
-    body{
-        overflow-y:scroll;
-    }
+
+@media only screen and (max-width:960px) {
+  body {
+    overflow-y: scroll;
+  }
 }
 
 ul li {
@@ -36,9 +36,21 @@ ul li {
 }
 
 .box {
-        background-color: rgba(0, 0, 0, 0.5);
-        padding: 20px;
-        width: 300px;
-        margin: 100px auto;
-        text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  width: 300px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.fa-github {
+  line-height: 5em;
+}
+
+.grow {
+  transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.07);
 }
